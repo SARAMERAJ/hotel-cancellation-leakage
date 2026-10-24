@@ -6,9 +6,9 @@ All notebooks are saved with their outputs, so the results can be read without r
 
 | Notebook | What it reproduces |
 | --- | --- |
-| `Notebook_A_CV_Tuning_SHAP.ipynb` | Duplicate removal, leakage-controlled preprocessing, stratified 5-fold cross-validation of logistic regression, 1D CNN, DNN, CNN+DNN hybrid, XGBoost and LightGBM with hyperparameter search inside each training fold, Friedman and McNemar tests, the duplicate-leakage experiment, and the SHAP analysis (Tables 2, 3, 5–7; Figures 1–3, 5–7) |
+| `Notebook_A_CV_Tuning_SHAP.ipynb` | Duplicate removal, leakage-controlled preprocessing, stratified 5-fold cross-validation of logistic regression, 1D CNN, DNN, CNN+DNN hybrid, XGBoost and LightGBM with hyperparameter search inside each training fold, Friedman and McNemar tests, the raw-data random-split comparison, and the SHAP analysis (Tables 2, 3, 5–7; Figures 1–3, 5–7) |
 | `Notebook_B_Time_Ordered.ipynb` | Expanding-window evaluation on three future periods, with hyperparameter search inside each window (Tables 4 and 8; Figure 4) |
-| `Notebook_C_Parking_Check.ipynb` | Sensitivity check: LightGBM with and without the parking feature (Section 4.6) |
+| `Notebook_C_Parking_Check.ipynb` | Sensitivity check: LightGBM with and without the parking feature (Section IV-F) |
 | `Notebook_D_Descriptives.ipynb` | Descriptive statistics: effect of removing duplicates on the cancellation rate, non-refundable duplicates, cancellation rates by attribute, and the change in cancellation rate and guest mix by arrival year (Table 9; Sections 3.1, 4.4 and 5.3) |
 
 Table 1 summarises published studies and has no code.
