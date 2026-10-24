@@ -1,0 +1,3 @@
+Test,Statistic,p-value,Detail
+"Friedman (F1, all models)",10.619,0.059478769992012875,
+McNemar (1D CNN vs XGBoost),223.376,1.659262694153023e-50,only XGBoost correct: 4446; only 1D CNN correct: 3143
