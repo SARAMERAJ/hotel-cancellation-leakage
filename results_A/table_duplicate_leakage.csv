@@ -1,0 +1,3 @@
+Setting,Accuracy,F1,ROC-AUC
+"With duplicates, random 80/20 split",0.8842,0.8388,0.9543
+"Duplicates removed, 5-fold CV (this study)",0.8423,0.7004,0.9057

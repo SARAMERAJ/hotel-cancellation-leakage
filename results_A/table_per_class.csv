@@ -1,0 +1,13 @@
+Model,Class,Precision,Recall,F1,Support
+Logistic Regression,Not canceled,0.8918,0.743,0.8107,63221
+Logistic Regression,Canceled,0.5299,0.7626,0.6253,24009
+1D CNN,Not canceled,0.8893,0.8517,0.8701,63221
+1D CNN,Canceled,0.6487,0.7209,0.6829,24009
+DNN,Not canceled,0.9113,0.8084,0.8568,63221
+DNN,Canceled,0.6111,0.7928,0.6902,24009
+CNN+DNN Hybrid,Not canceled,0.8806,0.8901,0.8854,63221
+CNN+DNN Hybrid,Canceled,0.7022,0.6823,0.6921,24009
+XGBoost,Not canceled,0.8775,0.9073,0.8922,63221
+XGBoost,Canceled,0.7319,0.6665,0.6977,24009
+LightGBM,Not canceled,0.8786,0.9078,0.893,63221
+LightGBM,Canceled,0.7339,0.6698,0.7004,24009

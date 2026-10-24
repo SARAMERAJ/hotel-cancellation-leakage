@@ -1,0 +1,3 @@
+Test,Statistic,p-value,Detail
+"Friedman (F1, all models)",22.029,0.0005170904445966282,
+McNemar (CNN+DNN Hybrid vs LightGBM),103.698,2.356672569798577e-24,only LightGBM correct: 3594; only CNN+DNN Hybrid correct: 2780
