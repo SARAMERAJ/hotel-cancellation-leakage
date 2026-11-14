@@ -1,0 +1,4 @@
+Window,Adversarial AUC,Top features,LightGBM AUC trained on past,LightGBM AUC trained within test period (5-fold),Mean predicted prob (past model),Test rate,Train rate
+W1,0.8725129287340446,adr; lead_time; hotel_City Hotel; customer_type_Contract; customer_type_Transient,0.7542769427425167,0.8909327286731237,0.11675501232016831,0.2906935908691835,0.221866715421885
+W2,0.8575536617059357,adr; lead_time; hotel_City Hotel; total_nights; market_segment_Offline TA/TO,0.8251334102472426,0.87330132945435,0.2340892332515903,0.2844208105777522,0.2500674496825368
+W3,0.9232259969513946,adr; lead_time; hotel_City Hotel; meal_SC; total_guests,0.8026672782742881,0.8670484448124414,0.2796985869390846,0.3470113450358413,0.25694474414857654
