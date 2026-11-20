@@ -18,7 +18,7 @@ for k, m in enumerate(models):
                 ms=6, capsize=2.5, label=lab.get(m, m))
 ax.set_ylabel('ROC-AUC on test window\n(95% bootstrap CI)')
 ax.grid(alpha=0.3)
-ax.legend(ncol=3, fontsize=11, loc='lower center', bbox_to_anchor=(0.5, 1.0), frameon=False)
+ax.legend(ncol=4, fontsize=11, loc='lower center', bbox_to_anchor=(0.5, 1.0), frameon=False)
 rates = [w['Test rate'] * 100 for w in R['windows']]
 tr = [w['Train rate'] * 100 for w in R['windows']]
 ax2.bar(x - 0.18, tr, 0.36, color='#bbbbbb', label='Training data')
