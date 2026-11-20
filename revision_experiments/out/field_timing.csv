@@ -1,0 +1,21 @@
+Field,Type,Kept: share > 0,Cancelled 0-1 days before arrival: share > 0,Early vs late cancellation (lead 91-180),Measure
+stays_in_weekend_nights,numeric,0.5826544977143671,0.48800362154821186,-0.053211725667200845,standardised mean difference
+stays_in_week_nights,numeric,0.9213394283545024,0.8995020371208692,-0.1385594373170943,standardised mean difference
+adults,numeric,0.9978171809999842,0.9963784517881394,-0.20448226880145912,standardised mean difference
+children,numeric,0.08508248841366002,0.0755998189225894,-0.10183263749735307,standardised mean difference
+babies,numeric,0.011815694152259535,0.008148483476686284,0.05034200421093123,standardised mean difference
+is_repeated_guest,numeric,0.04909760997137027,0.058397464916251696,-0.07119661275808555,standardised mean difference
+previous_cancellations,numeric,0.008509830594264564,0.032593933906745136,0.13877908441201392,standardised mean difference
+previous_bookings_not_canceled,numeric,0.05316271492067509,0.04526935264825713,0.025086954144005347,standardised mean difference
+days_in_waiting_list,numeric,0.008873633760933867,0.004074241738343142,0.18543917604906693,standardised mean difference
+adr,numeric,0.9766691447462077,0.9606156631960163,-0.2996279349353106,standardised mean difference
+required_car_parking_spaces,numeric,0.11556286676895336,0.0,0.0,standardised mean difference
+total_of_special_requests,numeric,0.5376852628082441,0.3961068356722499,0.3932963727719465,standardised mean difference
+hotel,categorical,,,0.02426611884899818,total variation distance
+meal,categorical,,,0.03506955103013785,total variation distance
+country,categorical,,,0.1496582948722853,total variation distance
+market_segment,categorical,,,0.13170899547645631,total variation distance
+distribution_channel,categorical,,,0.06151367239109148,total variation distance
+reserved_room_type,categorical,,,0.08694806414144313,total variation distance
+deposit_type,categorical,,,0.011692848798050675,total variation distance
+customer_type,categorical,,,0.12474545930890868,total variation distance
